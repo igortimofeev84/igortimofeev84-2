@@ -232,18 +232,18 @@
 # save_changes.click()
 
 [] ######################### Урок 3 практическое 2 ##############################
-import time
-from selenium import webdriver
-driver = webdriver.Chrome(executable_path='C:/chromedriver.exe')
-driver.maximize_window()
-driver.implicitly_wait(5)
-driver.get("http://demo.automationtesting.in/WebTable.html")
-More=driver.find_element_by_link_text("More").click()
-Dynamic_Data=driver.find_element_by_link_text("Dynamic Data").click()
-modal_window = driver.find_element_by_class_name("cont_box_center")
-modal_window_text = modal_window.text
-assert "Loading the data Dynamically" in  modal_window_text
-Get_Dynamic_Data=driver.find_element_by_id("save").click()
+# import time
+# from selenium import webdriver
+# driver = webdriver.Chrome(executable_path='C:/chromedriver.exe')
+# driver.maximize_window()
+# driver.implicitly_wait(5)
+# driver.get("http://demo.automationtesting.in/WebTable.html")
+# More=driver.find_element_by_link_text("More").click()
+# Dynamic_Data=driver.find_element_by_link_text("Dynamic Data").click()
+# modal_window = driver.find_element_by_class_name("cont_box_center")
+# modal_window_text = modal_window.text
+# assert "Loading the data Dynamically" in  modal_window_text
+# Get_Dynamic_Data=driver.find_element_by_id("save").click()
 
 []########################## Урок 3 практическое 3 ##############################
 # import time
