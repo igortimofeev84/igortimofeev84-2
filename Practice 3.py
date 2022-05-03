@@ -92,8 +92,8 @@
 # lastName = driver.find_element_by_id("lastName")
 # lastName.send_keys("Timofeev")
 # Save = driver.find_element_by_id("btnSave")
-# Save.click() 
-# driver.quit()
+# Save.click()
+# driver.quit()         
 
 [] ############### Удаление пользователя #######################
 # import time
