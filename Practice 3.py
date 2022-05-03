@@ -71,7 +71,7 @@
 # prompt.accept()
 # time.sleep(5)
 # driver.quit()
-
+[] ############## Регистрация пользователя #####################
 # import time
 # from selenium import webdriver
 # driver = webdriver.Chrome(executable_path='C:/chromedriver.exe')
@@ -94,6 +94,37 @@
 # Save = driver.find_element_by_id("btnSave")
 # Save.click()
 # driver.quit()
+
+[] ############### Удаление пользователя #######################
+# import time
+# from selenium import webdriver
+# driver = webdriver.Chrome(executable_path='C:/chromedriver.exe')
+# driver.get("https://opensource-demo.orangehrmlive.com/")
+# login = driver.find_element_by_id("txtUsername")
+# login.send_keys("Admin")
+# password = driver.find_element_by_id("txtPassword")
+# password.send_keys("admin123")
+# login_btn = driver.find_element_by_id("btnLogin")
+# login_btn.click()
+# pim = driver.find_element_by_id("menu_pim_viewPimModule")
+# pim.click()
+# time.sleep(3)
+# EmployeeList = driver.find_element_by_id("menu_pim_viewEmployeeList")
+# EmployeeList.click()
+# time.sleep(3)
+# EmployeeName = driver.find_element_by_name("empsearch[employee_name][empName]")
+# EmployeeName.send_keys("Igor Timofeev")
+# search = driver.find_element_by_id("searchBtn")
+# search.click()
+# time.sleep(3)
+# checkbox = driver.find_element_by_name("chkSelectRow[]")
+# checkbox.click()
+# Delete= driver.find_element_by_class_name("delete")
+# Delete.click()
+# dialogDelete=driver.find_element_by_id("dialogDeleteBtn")
+# dialogDelete.click()
+# driver.quit()
+
 []#######################  Linda Jein  ###################################
 # import time
 # from selenium import webdriver
