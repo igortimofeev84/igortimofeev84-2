@@ -27,7 +27,7 @@
 #     print("В корзине 3 товара")
 # else:
 #     print("Ошибка. Количество товаров в корзине: " + str(len(items_count)))
-# driver.quit()
+# driver.quit() 
 []###################### Модальные окна ####################################
 # import time
 # from selenium import webdriver
