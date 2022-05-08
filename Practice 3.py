@@ -93,7 +93,7 @@
 # lastName.send_keys("Timofeev")
 # Save = driver.find_element_by_id("btnSave")
 # Save.click()
-# driver.quit()         
+# driver.quit()
 
 [] ############### Удаление пользователя #######################
 # import time
@@ -209,6 +209,21 @@
 # Phone.send_keys("1233214567")
 # Male=driver.find_element_by_css_selector("input[value=Male]")
 # Male.click()
+# Movies=driver.find_element_by_id("checkbox2").click()
+# time.sleep(2)
+# driver.execute_script("window.scrollBy(0, 300);")
+# element = driver.find_element_by_id("msdd").click()
+# Languages=driver.find_element_by_link_text("Vietnamese").click()
+# time.sleep(1)
+# from selenium.webdriver.support.select import Select
+# element = driver.find_element_by_id("Skills")
+# select = Select(element)
+# select.select_by_value("Python")
+# time.sleep(1)
+# from selenium.webdriver.support.select import Select
+# element = driver.find_element_by_id("countries")
+# select = Select(element)
+# select.select_by_visible_text("Select Country")
 # time.sleep(1)
 # from selenium.webdriver.support.select import Select
 # element = driver.find_element_by_id("country")
