@@ -1,4 +1,4 @@
-[]###############    "Проверка 3 товара в корзине"   ######################
+[]###############   "Проверка 3 товара в корзине"   ######################
 # import time
 # from selenium import webdriver
 # driver = webdriver.Chrome(executable_path='C:/chromedriver.exe')
